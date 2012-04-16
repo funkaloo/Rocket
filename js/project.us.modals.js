@@ -28,15 +28,16 @@ $(document).ready(function() {
 */
   
   $('.carousel').carousel({interval:50000});
+  $('.subnav').scrollspy();
 
-
+/*
   $('body').waitForImages({
   	waitForAll: true,
   	finished: function() {
   		$('.subnav').scrollspy(); // must be after image load
   	}
   })
-
+*/
 
 /*
   $('#summary').editable({
